@@ -1,17 +1,17 @@
 const siteConfig = {
-  title: "Blog",
+  title: "Dinesh Blog",
   description:
-    "A static minimalistic blog template powered by Next.js and Contentlayer.",
-  author: "Saurabh Charde",
-  url: "https://nextjs-contentlayer-tailwind.vercel.app",
+    "Personal dev blog by Dinesh. Sharing my thoughts, experiences, and learnings.",
+  author: "Dinesh Kumar",
+  url: "https://personal-blog-eight-ruby.vercel.app/",
   siteImage: "/images/announcement-banner.png",
   socials: {
-    github: "https://github.com/schardev",
-    linkedin: "https://linkedin.com/in/scharde",
-    twitter: "https://twitter.com/saurabhcharde",
-    telegram: "https://t.me/saurabhcharde",
-    email: "saurabhchardereal@gmail.com",
-    site: "https://schar.dev",
+    github: "https://github.com/dineshKumar777",
+    linkedin: "/",
+    twitter: "/",
+    telegram: "/",
+    email: "/",
+    site: "/",
   },
   blog: {
     postPerPage: 10,
