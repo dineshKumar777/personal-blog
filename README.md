@@ -41,3 +41,13 @@ Now open `http://localhost:3000` to view changes to your blog as it happens.
 | `schema/`                | Contains schema-related files                                                                                   |
 | `contentlayer.config.ts` | [Contentlayer](https://www.contentlayer.dev/) configuration file (you can change your `content` directory here) |
 | `lib/siteConfig.ts`      | Holds config related to the site itself                                                                         |
+
+## Added turbo support
+
+using this doc added support [DOC](https://turbo.build/repo/docs/getting-started/add-to-project)
+
+```bash
+turbo type-check build
+
+turbo dev
+```
