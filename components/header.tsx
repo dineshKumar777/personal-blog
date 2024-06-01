@@ -18,7 +18,11 @@ const Header = () => {
           "transition-colors border-b border-borders",
         )}>
         <header className={cn("max-w-container-center flex items-center py-4")}>
-          <Link href="/" className={cn("text-lg font-bold mr-auto lg:text-xl")}>
+          <Link
+            href="/"
+            className={cn(
+              "text-lg font-bold mr-auto lg:text-xl hover:text-accent",
+            )}>
             {config.title}
           </Link>
           <nav>
