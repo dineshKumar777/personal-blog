@@ -17,7 +17,10 @@ const Header = () => {
           "sticky top-0 z-10 backdrop-blur-[10px] bg-background/80 shadow-sm",
           "transition-colors border-b border-borders",
         )}>
-        <header className={cn("max-w-container-center flex items-center py-4")}>
+        <header
+          className={cn(
+            "max-w-container-center flex items-center py-2 md:py-4",
+          )}>
           <Link
             href="/"
             className={cn(
