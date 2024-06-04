@@ -41,11 +41,16 @@
   }
 
   img {
-    @apply rounded-global shadow-lg;
+    @apply mx-auto;
+  }
+
+  figure {
+    @apply border border-borders;
   }
 
   figure > figcaption {
-    @apply text-center italic font-medium text-[--color-quotes];
+    /* @apply text-center italic font-medium text-[--color-quotes]; */
+    @apply px-4 pb-3 text-sm italic text-[--color-quotes];
   }
 
   table {
